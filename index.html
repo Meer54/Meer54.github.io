@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Me, My Hometown and Interest</title>
+        <link rel="stylesheet" href="home.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    </head>
+    <script>
+        const catMeme = document.getElementById('cat-meme');
+        const fetchRandomcat = () => {
+            catMeme.src = 'https://catass,com/cat?time=${new Date().getTime()}';
+        };
+
+        fetchRandomcat();
+    </script>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Me</a></li>
+                <li><a href="hometown.html">Hometown</a></li>
+                <li><a href="interest.html">Interests</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Welcome to my page</h1>
+            <p>Feel free to navigate around the site. You can use the Nav bar for easy access to guide around</p>
+        </header>
+        <main>
+            <section>
+                <h2>This is just random cat meme for you</h2>
+                <p>Note the meme change when you refresh</p>
+                <img id="cat-meme" src="https://cataas.com/cat" alt="Random cat"/>
+            </section>
+        </main>
+        <footer>
+            <p> © 2024 Muhammad Amirul Hisyam | Made with blood and tears</p>
+        </footer>
+    </body>
+</html>

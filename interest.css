@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #DAE3E5; 
+    color: #04080F; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #507DBC; 
+    color: #DAE3E5; 
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+nav {
+    background-color: #04080F; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #DAE3E5; 
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #A1C6EA; 
+    border-radius: 5px;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.interest {
+    background-color: #BBD1EA; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.interest-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.interest h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #04080F; 
+}
+
+.interest p {
+    font-size: 1.1em;
+    margin: 0;
+    line-height: 1.6;
+    color: #04080F;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #04080F; 
+    color: #DAE3E5; 
+    font-size: 0.9em;
+}
